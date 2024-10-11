@@ -1,0 +1,122 @@
+.heart-border {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transform: rotate(-45deg);
+  margin: 50px;
+  position: relative;
+   transition: all 0.3s ease;
+}
+
+/* .heart-border::before,
+.heart-border::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+}
+
+.heart-border::before {
+  top: -50px;
+  left: 0;
+}
+
+.heart-border::after {
+  left: 50px;
+  top: 0;
+} */
+
+
+.fa-solid{
+  margin-top: 10px;
+  position: absolute;
+  top:280px;
+  right: 625px;
+  
+}
+
+
+
+#heart{
+   margin-top: 190px;
+   display: flex;
+        
+
+   
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(./19b7a7201a24d6d3934b5da031c38307.jpeg); 
+    background-size: cover;
+}
+
+
+button{
+    background-color: rgb(255, 0, 0);
+    width: 400px;
+    height: 30px;
+    border-radius: 9px;
+    border:rgb(255, 17, 0) ;
+    color: white;
+      transition: all 0.3s ease;
+
+
+}
+
+
+button:hover{
+     background-color: #f00000;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-2px); 
+}
+
+
+
+
+
+
+
+
+
+/* #border1{
+    border-top: solid red;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+} */
+/* #border2{
+    border-top: solid red;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+} */
+/* #border3{
+    border-top: solid red;
+    width: 180px;
+    height: 100px;
+    transform: rotate(55deg);
+    margin-top: 350px;
+    margin-right: 200px;
+    position: absolute;
+} */
+
+/* #border4{
+    border-top: solid red;
+    width: 180px;
+    height: 100px;
+    transform: rotate(130deg);
+    margin-top: 200px;
+    margin-right: 00px;
+    position: absolute;
+} */
